@@ -21,4 +21,3 @@ const randomAttack = () => {
 };
 
 module.exports = { specialists, randomAttack };
-a
