@@ -14,7 +14,6 @@ describe("o retorno do telefonema", () => {
   test("atende",  () => {
     expect(answerPhone()).resolves.toBe('Oi!');
 
-    // Insira seu teste assíncrono aqui
   });
   test("ocupado", async () => {
     try {
