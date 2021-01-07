@@ -65,7 +65,7 @@ Para testar se os requisitos estão passando, você pode executar os testes na s
 
   - Projeto individual.
 
-  - Serão dois dias de projeto.
+  - Teremos 1 dia de projeto.
 
   - Data de entrega para avaliação final do projeto: `DD/MM/YYYY - 14:00h`.
 
