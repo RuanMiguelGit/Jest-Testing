@@ -10,13 +10,11 @@ a função recebe como parâmetro true e false, respectivamente.
 ATENÇÃO!!! Edite apenas este arquivo. Não altere os arquivos da pasta 'src'.
 */
 
-
 describe("o retorno do telefonema", () => {
-  test("atende", async () => {
-  const teste = answerPhone()  
-  teste.then((data) => {
-  expect(data).toBe('Oi!')
-    })
+  test("atende",  () => {
+    expect(answerPhone()).resolves.toBe('Oi!');
+
+    // Insira seu teste assíncrono aqui
   });
   test("ocupado", async () => {
     try {
@@ -24,5 +22,6 @@ describe("o retorno do telefonema", () => {
   } catch(reject) {
       expect(reject).toEqual('Infelizmente não podemos atender...')
   }
+    // Insira seu teste assíncrono aqui
   });
 });
