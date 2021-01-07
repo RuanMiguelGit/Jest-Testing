@@ -23,6 +23,5 @@ describe("o retorno do telefonema", () => {
   } catch(reject) {
       expect(reject).toEqual('Infelizmente não podemos atender...')
   }
-    // Insira seu teste assíncrono aqui
   });
 });
